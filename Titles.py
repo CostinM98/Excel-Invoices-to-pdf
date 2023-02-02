@@ -25,5 +25,4 @@ for filepath in filepaths:
         pdf.cell(w=50, h=10, txt=name, ln=1)
 
 
-
 pdf.output('output.pdf')

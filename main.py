@@ -6,7 +6,6 @@ import glob
 
 filepaths = glob.glob('invoices/*.xlsx')
 
-
 for filepath in filepaths:
 
     pdf=FPDF(orientation='p',unit='mm',format='A4')
